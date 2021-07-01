@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body{
+	background-image: url('../media/bgImage.jpg');
+}
+
+/* header */
+
+.header{
+	background-color: black;
+	border-bottom: 1px solid #e71d36;
+}
+
+.header img{
+	width:80%;
+}
+
+.header a{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-decoration: none;
+	color: #e71d36;
+	transition: all 0.2s ease-in-out;	
+}
+
+.header a:hover{
+	color: #e8e8e8;
+}
+
+.header .button{
+	background-color: #e71d36;
+}
+
+/* main */
+
+.title{
+	font-size: 3.5rem;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	color: #e71d36;
+	margin: 10px 0px;
+}
+
+.title2{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 2.5rem;
+	text-align: center;
+	color: #e71d36;
+}
+
+.title3{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 1.5rem;
+	margin-left: 125px;
+	margin-top: 10px;
+}
+
+.subtitle{
+	color: black;
+	font-family: 'Arial', 'Helvetica';
+	text-align: center;
+}
+
+.promo{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 2rem;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+.promo img{
+	width: 100%;
+}
+
+.productos{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 2rem;
+	flex-direction: column;
+}
+
+.prod{
+	background-color: black;
+	color: #e71d36;
+	margin-bottom: 5px;
+}
+
+.productos div{
+	max-width: 540px;
+}
+
+h5{
+	font-size: 2.5rem;
+}
+
+.productos .prod p{
+	font-size: 2.5rem;
+}
+
+/* Productos */
+
+.titleTable{
+	background: linear-gradient(to right, #e8e8e8, #e71d36) ;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 1.5rem;
+	font-family: 'Arial', 'Helvetica';
+	color: black;
+	text-decoration: underline;
+}
+
+.titleTable .foto{
+	display: none;
+}
+
+.padre{
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	margin: auto;
+	font-family: 'Arial', 'Helvetica';
+	font-size: 1.5rem;
+	color: black;
+}
+
+.padre div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: linear-gradient(to right, #e8e8e8, #e71d36) ;
+	margin-bottom: 5px;
+	transition: all 0.2s ease-in-out;
+}
+
+.padre img{
+	display: none;
+}
+
+/* Nosotros */
+
+.nosotros{
+	display: flex;
+	flex-direction: column;
+}
+
+.nosotros p{
+	font-family: 'Arial', 'Helvetica';
+	text-align: center;
+	font-size: 2rem;
+	margin: 0px 20px 20px 20px;
+}
+
+/* Contacto */
+
+.contacto{
+	display: flex;
+	flex-direction: column;
+}
+
+.textMapa{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 1.5rem;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.buttonHorario{
+	background-color: #e71d36;
+	color: black;
+	box-shadow: 0 0 0 .2rem transparent;
+	transition: all 0.2s ease-in-out;
+}
+
+.buttonHorario:hover{
+	color: black;
+}
+
+.buttonHorario:focus{
+	box-shadow: 0 0 0 .2rem transparent;
+}
+
+.formContacto{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 1.3rem;
+	margin-left: 5px;
+	margin-bottom: 20px;
+}	
+
+.formContacto input{
+	font-size: 1rem;
+}
+
+.formContacto select{
+	font-size: 1rem;
+}
+
+.formContacto textarea{
+	font-size: 1rem;
+	width: 300px;
+	height: 200px;
+}
+
+.formContacto ul{
+	padding-left: 10px;
+}
+
+.formContacto ul li{
+	margin-bottom: 15px;
+	list-style: none;
+}
+
+/* footer */
+
+.footer{
+	background-color: black;
+	border-top: 1px solid #e71d36;
+	color: #e71d36;
+}
+
+.newsletter{
+	display: none;
+	margin-right: 50px;
+}
+
+.footer a{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-decoration: none; 
+	color: #e71d36;
+	margin-right: 50px;
+	transition: all 0.2s ease-in-out;
+}
+
+.footer a:hover{
+	color: #e8e8e8;
+}
+
+.footer .button{
+	background-color: #e71d36;
+}
+
+@media all and (min-width: 768px){
+
+	/* main */
+
+	.title{
+		font-size: 5rem;
+	}
+
+	.title2{
+		font-size: 3rem;
+	}
+
+	.promo{
+		flex-direction: row;
+		font-size: 2.2rem;
+	}
+
+	.productos div{
+		max-width: 620px;
+	}
+
+	.prod{
+		margin-left: px;
+	}
+
+	.padre{
+		margin-bottom: 10px;
+	}
+
+	.formContacto textarea{
+		width: 350px;
+	}
+
+	/* footer */
+
+	.newsletter{
+		display: inline-block;
+	}
+
+	.footer p{
+		font-family: 'Arial', 'Helvetica';
+		margin-left: 10px;
+	}
+
+	.footer form{
+		font-size: 1rem;
+		font-family: 'Arial', 'Helvetica';
+		margin-left: 40px;
+	}
+
+	.footer form input{
+		font-size: 1rem;
+	}
+}
+
+@media all and (min-width: 992px){
+
+	/* header */
+
+	.header a{
+		margin-right: 50px;
+	}
+
+	.titleTable{
+		font-size: 2rem;
+	}
+
+	.padre{
+		font-size: 2rem;
+		margin-bottom: 10px;
+	}
+
+	.padre div:hover{
+		transform: scale(1.1);
+	}
+
+	.titleTable .foto{
+		display: inline-block;
+	}
+
+	.padre img{
+		display: inline-block;
+		width: 7%;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.padre img:hover{
+		transform: scale(3.5);
+	}
+
+	.title2{
+		font-size: 3.5rem;
+		text-align: left;
+		margin: 30px 0px 30px 35px;
+	}
+
+	.promo{
+		font-size: 3.5rem;
+		margin: 50px 0px;
+		color: black;
+	}
+
+	.productos{
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-bottom: 50px;
+	}
+
+	.productos div{
+		max-width: 650px;
+	}
+
+	.nosotros .title2{
+		text-align: left;
+		margin-left: 10px;
+	}
+
+	.textRight .title2{
+		align-self: flex-end;
+		margin-right: 20px;
+		text-align: right;
+	}
+
+	.textRight p{
+		text-align: right;
+	}
+
+	.formContacto{
+		font-size: 1.5rem;
+	}	
+
+	.formContacto input{
+		font-size: 1.5rem;
+	}
+
+	.formContacto select{
+		font-size: 1.5rem;
+	}
+
+	.formContacto textarea{
+		font-size: 1.5rem;
+		width: 500px;
+	}
+}

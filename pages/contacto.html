@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="PIZZA, EMPANADA, PIZZERIA, CONTACTO, CERCA, DELIVERY, COMO LLEGAR, DONDE, HORARIO, CAÑUELAS">
+  	<meta name="description" content="Teléfono, Dirección y Horarios. Toda nuestra información de Contacto">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/estilos.css">
+	<title>Teléfono, Dirección y Horarios. Toda nuestra información de Contacto</title>
+</head>
+<body>
+	<!--header-->
+	<div class="cotainer-fluid header">
+	    <nav class="navbar navbar-expand-lg">
+	        <a class="navbar-brand" href="../index.html">
+	          	<img src="../media/logo.svg" alt="logo" loading="lazy">
+	        </a>
+	        <button class="navbar-toggler navbar-light button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+	        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	          	<div class="navbar-nav">
+	           		<a class="nav-link active" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+	            	<a class="nav-link" href="productos.html">Productos</a>
+	            	<a class="nav-link" href="promociones.html">Promos</a>
+	            	<a class="nav-link" href="nosotros.html">Nosotros</a>
+	            	<a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+	          	</div>
+	        </div>
+	    </nav>
+	</div>
+	<!--main-->
+	<div class="title">Contacto</div>
+	<div class="contacto container-fluid">
+		<section>
+			<h2 class="title2">Dirección</h2>
+			<div class="textMapa">
+				<h1>Encontranos en Rivadavia 692, Cañuelas, o llamando al 2226-422048</h1>
+			</div>
+			<div class="mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d603.8904330373524!2d-58.7602940708449!3d-35.05394789877156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd1f72a7956fb1%3A0x62c29ff335f49d32!2sRivadavia%20692%2C%20B1814BHN%20Ca%C3%B1uelas%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1623288908070!5m2!1ses!2sar" width="340" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</section>
+		<div class="textMapa">
+			<h2 class="title2">Horario</h2>
+			<p>Nos encontramos abiertos:</p>
+			<div class="dropdown">
+				<a class="btn buttonHorario dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Horarios
+				</a>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				    <a class="dropdown-item" href="#">"Lunes"</a>
+				    <a class="dropdown-item" href="#">11:30-14:30/19:00-23:59</a>
+				    <a class="dropdown-item" href="#">"Martes"</a>
+				    <a class="dropdown-item" href="#">11:30-14:30/19:00-23:59</a>
+				    <a class="dropdown-item" href="#">"Miércoles"</a>
+				    <a class="dropdown-item" href="#">Cerrado</a>
+				    <a class="dropdown-item" href="#">"Jueves"</a>
+				    <a class="dropdown-item" href="#">11:30-14:30/19:00-23:59</a>
+				    <a class="dropdown-item" href="#">"Viernes"</a>
+				    <a class="dropdown-item" href="#">11:30-14:30/19:00-23:59</a>
+				    <a class="dropdown-item" href="#">"Sábado"</a>
+				    <a class="dropdown-item" href="#">11:30-14:30/19:00-23:59</a>
+				    <a class="dropdown-item" href="#">"Domingo"</a>
+				    <a class="dropdown-item" href="#">19:00-23:59</a>
+				 </div>
+			</div>
+		</div>
+		<div>
+			<div class="title2">Escríbenos lo que quieras!</div>
+			<div>
+				<form class="formContacto" action="" method="GET">
+					<ul>
+						<li>
+							<label for="nombre">Nombre</label>
+							<input id="nombre" type="text" name="name" placeholder="Nombre">
+							<label for="apellido">Apellido</label>
+							<input id="apellido" type="text" name="surname" placeholder="Apellido">
+						</li>
+						<li>
+							<label for="E-mail">E-mail</label>
+							<input id="E-mail" type="email" name="emailCnt" placeholder="E-mail">
+						</li>
+						<li>
+							<label>¿Te gustó nuestro servicio? Sí</label>
+							<input type="radio" name="like" value="Sí">
+							<label>No</label>
+							<input type="radio" name="like" value="No">
+							<label>No consumí</label>
+							<input type="radio" name="like" value="NoConsumí">
+						</li>
+						<li>
+							<label>¿Cómo nos conociste? Facebook</label>
+							<input type="checkbox" name="foundOn" value="F">
+							<label>Instagram</label>
+							<input type="checkbox" name="foundOn" value="Ins">
+							<label>Google</label>
+							<input type="checkbox" name="foundOn" value="Goo">
+							<label>Otro</label>
+							<input type="checkbox" name="foundOn" value="Otro">
+						</li>
+						<li>
+							<select name="servFav">
+								<option selected="select" disabled>¿Qué servicio te gusta más?</option>
+								<option>En el local</option>
+								<option>Delivery</option>
+							</select>
+						</li>
+						<li>
+							<textarea placeholder="Escribe aquí" name="opinion"></textarea>
+						</li>
+						<li>
+							<input type="reset" name="reset" value="LIMPIAR">
+							<input type="submit" name="sub_Cnt" value="ENVIAR">
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--footer-->
+	<div class="cotainer-fluid footer">
+	    <nav class="navbar navbar-expand-lg">
+	        <div class="newsletter">
+	          	<div class="title3">Newsletter</div>
+	          	<div>
+	            	<p>Reciba las últimas promociones y novedades!</p>
+	          	</div>
+	          	<form action="" method="GET">
+	           		<label for="mail">E-mail</label>
+	            	<input id="mail" type="email" name="emailNwt" placeholder="Ingrese su E-mail">
+	            	<input type="submit" name="sub_Nwt" value="ENVIAR">
+	          	</form>
+	        </div>
+	        <button class="navbar-toggler navbar-light button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+	        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	          	<div class="navbar-nav">
+	            	<a class="nav-link active" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+	            	<a class="nav-link" href="productos.html">Productos</a>
+	            	<a class="nav-link" href="promociones.html">Promos</a>
+	            	<a class="nav-link" href="nosotros.html">Nosotros</a>
+	            	<a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+	          	</div>
+	        </div>
+	    </nav>
+	</div>
+	<script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>		
+</body>
+</html>
